@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "script": "node src/cli.js"
+    "script": "node src/cli.js ./arquivos/texto.md",
+    "script:validate": "node src/cli.js ./arquivos/texto.md --validate"
   },
   "repository": {
     "type": "git",
